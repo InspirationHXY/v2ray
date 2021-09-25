@@ -30,7 +30,6 @@ proxies:
 - {"name":" |46.30Mb","server":"144.48.39.69","type":"ss","country":"🇦🇺AU","port":48794,"password":"r9Q3adc3ru9sfBDPEj4yp6U6","cipher":"aes-256-gcm"}
 - {"name":" |41.60Mb","server":"45.125.247.197","type":"ss","country":"🇦🇺AU","port":49339,"password":"suucSeVLmt6PQKAP77NtGw9x","cipher":"aes-256-gcm"}
 - {"name":" |48.52Mb","server":"124.150.139.123","type":"ss","country":"🇦🇺AU","port":35294,"password":"J9Y2ncrdPEC38gwydNFFGBna","cipher":"aes-256-gcm"}
-- {"name":" |46.35Mb","server":"144.48.39.69","type":"ss","country":"🇦🇺AU","port":31764,"password":"YgusH2MWA8PWc3p2VDsR7AVv","cipher":"aes-256-gcm"}
 - {"name":" |49.44Mb","server":"45.125.247.197","type":"ss","country":"🇦🇺AU","port":48938,"password":"4ejJ8n5ddLuYDUHGXJre2ufJ","cipher":"aes-256-gcm"}
 - {"name":" |46.67Mb","server":"180.149.228.173","type":"ss","country":"🇦🇺AU","port":37588,"password":"kD9vkjnE6dsUzwQfvKkPkQAd","cipher":"aes-256-gcm"}
 - {"name":" |44.91Mb","server":"144.48.39.69","type":"ss","country":"🇦🇺AU","port":41676,"password":"z6pH3RyttkRWhJ5tpRyt6dYk","cipher":"aes-256-gcm"}
