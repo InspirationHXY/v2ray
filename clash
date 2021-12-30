@@ -5,56 +5,117 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "[SS] Pool_ |12.53Mb", server: 64.44.42.60, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: "[SS] Pool_ |15.60Mb", server: 66.115.177.153, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: "[SS] Pool_ |16.46Mb", server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[SS] Pool_ |18.68Mb", server: 193.29.107.123, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: "[SS] Pool_ |20.03Mb", server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: "[SS] Pool_ |21.65Mb", server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: "[SS] Pool_ |24.30Mb", server: 193.29.107.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[SS] Pool_ |26.30Mb", server: 85.10.56.192, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: "[SS] Pool_ |28.37Mb", server: 217.138.219.229, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: "[SS] Pool_ |28.94Mb", server: 191.96.13.200, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: "[SS] Pool_ |32.53Mb", server: 82.102.16.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[SS] Pool_ |35.42Mb", server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: "[SS] Pool_ |43.23Mb", server: 64.44.42.60, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: "[SS] Pool_馃嚚馃嚟CH_213", server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: "[SS] Pool_馃嚠馃嚦IN_84 | 5.83Mb", server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[SS] Pool_馃嚠馃嚬IT_571", server: 82.102.26.93, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: "[SS] Pool_馃嚠馃嚬IT_573", server: 82.102.26.93, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: "[SS] Relay_ | 5.72Mb", server: 154.17.6.237, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: "[SS] Relay_ | 5.90Mb", server: 154.17.5.243, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: "[SS] Relay_ | 6.38Mb", server: 154.17.31.176, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: "[VMess] Relay_ | 8.70Mb", server: gy.jjxcloud.xyz, port: 51520, type: vmess, uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.jjxcloud.xyz}}
-  - {name: "[SS] Relay_ | 8.85Mb", server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
-  - {name: "[SS] Relay_ |10.29Mb", server: 154.17.31.177, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: "[VMess] | 5.53Mb", server: dx3.heartyu.cn, port: 24856, type: vmess, uuid: e20135bb-fb16-4f9d-bbe3-a298dc994e41, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: "[SS] |30.02Mb", server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] |31.18Mb", server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] |32.81Mb", server: 185.153.151.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: "[SS] |33.40Mb", server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[VMess] |33.79Mb", server: 45.140.88.192, port: 16389, type: vmess, uuid: 9194ba91-fe8d-4557-e7b9-2dad813e899b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "[SS] |34.59Mb", server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] |35.99Mb", server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] |41.20Mb", server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] |41.95Mb", server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] |69.10Mb", server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: "[SS] 馃嚚馃嚘 CA_325", server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "[SS] 馃嚚馃嚘 CA_327", server: 72.140.224.195, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "[SS] 馃嚚馃嚘 CA_352", server: 72.140.224.195, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "[SS] 馃嚚馃嚟 CH_477", server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: "[SS] 馃嚞馃嚙 GB_1310", server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: "[SS] 馃嚞馃嚙 GB_1354", server: 217.138.222.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[SS] 馃嚟馃嚪 HR_1446", server: 89.164.99.111, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[VMess] 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_152 |195.42Mb", server: ping.qingcloud.net.cn, port: 80, type: vmess, uuid: 02246a03-6cdf-3f65-95c8-0685f8284236, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: m.sc.189.cn}}
-  - {name: "[SS] 🇰🇷 Pool_馃嚢馃嚪KR_63", server: 61.14.210.237, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: "[SS] 🇹🇭 馃嚬馃嚟TH_170 |10.25Mb", server: 27.131.164.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: "[SS] 🇹🇭 馃嚬馃嚟TH_688", server: 27.131.164.100, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: "[SS] 🇺🇲 Pool_馃嚭馃嚫US_251 |34.30Mb", server: 66.115.177.141, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: "[SS] 🇺🇲 Pool_馃嚭馃嚫US_879", server: 64.44.42.162, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: "[SS] 🇺🇲 馃嚭馃嚫 US_3090", server: 148.72.169.209, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: "[VMess] 🇺🇲 馃嚭馃嚫 US_3115", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "[VMess] 🇺🇲 馃嚭馃嚫 US_3121", server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[SS] 馃嚚馃嚘CA_109", server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 馃嚚馃嚘CA_128", server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "[SS] 馃嚚馃嚘CA_137", server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 馃嚚馃嚘CA_142 |75.19Mb", server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[SS] 馃嚚馃嚘CA_169 |66.96Mb", server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[SS] 馃嚚馃嚘CA_208 |72.29Mb", server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[SS] 馃嚚馃嚘CA_221", server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 馃弫ZZ_1924", server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[SS] 馃弫ZZ_2020", server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[SS] 馃弫ZZ_2026", server: 134.195.196.68, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 馃弫ZZ_2108", server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 馃弫ZZ_2113", server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 馃弫ZZ_2117", server: 169.197.141.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[SS] 馃弫ZZ_2118", server: 169.197.141.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[SS] 馃弫ZZ_2122", server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[SS] 馃弫ZZ_2129", server: 169.197.141.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: "[SS] 馃弫ZZ_2130", server: 169.197.141.24, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[SS] 馃弫ZZ_2134", server: 169.197.141.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "[SS] 馃弫ZZ_2138", server: 169.197.141.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[SS] 馃弫ZZ_2142", server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "[SS] 馃弫ZZ_2143", server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "[SS] 馃弫ZZ_2145", server: 169.197.141.24, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 馃弫ZZ_2146", server: 169.197.141.24, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[SS] 馃弫ZZ_2148", server: 169.197.141.24, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "[SS] 馃弫ZZ_2169", server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "[SS] 馃弫ZZ_2170", server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "[SS] 馃弫ZZ_2172", server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "[SS] 馃弫ZZ_2178", server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[SS] 馃弫ZZ_2179", server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "[SS] 馃弫ZZ_2191", server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[SS] 馃弫ZZ_2197", server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "[SS] 馃弫ZZ_2200", server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_289", server: gzcm.rokishi.cyou, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_290", server: jmcm.rokishi.cyou, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_291", server: jmcm.rokishi.cyou, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277", server: hzcm.rokishi.cyou, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278", server: jmcm.rokishi.cyou, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278 2", server: hzcm.rokishi.cyou, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279", server: jmcm.rokishi.cyou, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280", server: jmcm.rokishi.cyou, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_282", server: hzcm.rokishi.cyou, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_283", server: jmcm.rokishi.cyou, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇭🇰 Pool_馃嚟馃嚢HK_503", server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_265", server: gzcm.rokishi.cyou, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_266", server: jmcm.rokishi.cyou, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_267", server: jmcm.rokishi.cyou, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_268", server: gzcm.rokishi.cyou, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_519", server: hk.azure.elaina.link, port: 443, type: vmess, uuid: 4c18ee2d-7573-4c9a-9400-8349d59ad527, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /JJkuv3, ws-headers: {Host: hk.azure.elaina.link}}
+  - {name: "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_521", server: hk.azure.elaina.link, port: 80, type: vmess, uuid: 4c18ee2d-7573-4c9a-9400-8349d59ad527, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk.azure.elaina.link}}
+  - {name: "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_523", server: hk.azure.elaina.link, port: 56688, type: vmess, uuid: 4c18ee2d-7573-4c9a-9400-8349d59ad527, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hhhaaa114514, ws-headers: {Host: hk.azure.elaina.link}}
+  - {name: "[SS] 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_288", server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[VMess] 🇳🇱 馃嚦馃嚤NL_713", server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
+  - {name: "[SS] 🇷🇴 Relay_馃嚚馃嚦CN-馃嚪馃嚧RO_286", server: hzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇷🇴 Relay_馃嚚馃嚦CN-馃嚪馃嚧RO_287", server: jmcm.rokishi.cyou, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇷🇺 Relay_馃嚚馃嚦CN-馃嚪馃嚭RU_271", server: gzcm.rokishi.cyou, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇷🇺 Relay_馃嚚馃嚦CN-馃嚪馃嚭RU_272", server: jmcm.rokishi.cyou, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇷🇺 馃嚪馃嚭RU_800", server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_259", server: jmcm.rokishi.cyou, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_261", server: gzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_274", server: jmcm.rokishi.cyou, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284", server: gzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_285", server: jmcm.rokishi.cyou, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_294", server: jmcm.rokishi.cyou, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_250", server: jmcm.rokishi.cyou, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_251", server: hzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_252", server: gzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_253", server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_254", server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255", server: gzcm.rokishi.cyou, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_256", server: jmcm.rokishi.cyou, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257", server: gzcm.rokishi.cyou, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_258", server: jmcm.rokishi.cyou, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269", server: gzcm.rokishi.cyou, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270", server: jmcm.rokishi.cyou, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273", server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275", server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276", server: jmcm.rokishi.cyou, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_291", server: gzcm.rokishi.cyou, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292", server: jmcm.rokishi.cyou, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_297", server: gzcm.rokishi.cyou, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 4c18ee2d-7573-4c9a-9400-8349d59ad527}
+  - {name: "[SS] 🇺🇲 Relay_馃嚠馃嚛ID-馃嚭馃嚫US_532", server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1001", server: 38.68.134.202, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1005", server: 38.68.134.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1110", server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1115", server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1116", server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1117", server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1118", server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1120", server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1121", server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1128", server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1149", server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1151", server: 38.64.138.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1154", server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1156", server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1157", server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1159", server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1171", server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1173", server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1175", server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1176", server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1179", server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1191", server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1252", server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1256", server: 38.64.138.145, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1257", server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1453", server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1485", server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1716", server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_1723", server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "[SS] 🇺🇲 馃嚭馃嚫US_962", server: 38.68.134.202, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,112 +132,233 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "[SS] Pool_ |12.53Mb"
-      - "[SS] Pool_ |15.60Mb"
-      - "[SS] Pool_ |16.46Mb"
-      - "[SS] Pool_ |18.68Mb"
-      - "[SS] Pool_ |20.03Mb"
-      - "[SS] Pool_ |21.65Mb"
-      - "[SS] Pool_ |24.30Mb"
-      - "[SS] Pool_ |26.30Mb"
-      - "[SS] Pool_ |28.37Mb"
-      - "[SS] Pool_ |28.94Mb"
-      - "[SS] Pool_ |32.53Mb"
-      - "[SS] Pool_ |35.42Mb"
-      - "[SS] Pool_ |43.23Mb"
-      - "[SS] Pool_馃嚚馃嚟CH_213"
-      - "[SS] Pool_馃嚠馃嚦IN_84 | 5.83Mb"
-      - "[SS] Pool_馃嚠馃嚬IT_571"
-      - "[SS] Pool_馃嚠馃嚬IT_573"
-      - "[SS] Relay_ | 5.72Mb"
-      - "[SS] Relay_ | 5.90Mb"
-      - "[SS] Relay_ | 6.38Mb"
-      - "[VMess] Relay_ | 8.70Mb"
-      - "[SS] Relay_ | 8.85Mb"
-      - "[SS] Relay_ |10.29Mb"
-      - "[VMess] | 5.53Mb"
-      - "[SS] |30.02Mb"
-      - "[SS] |31.18Mb"
-      - "[SS] |32.81Mb"
-      - "[SS] |33.40Mb"
-      - "[VMess] |33.79Mb"
-      - "[SS] |34.59Mb"
-      - "[SS] |35.99Mb"
-      - "[SS] |41.20Mb"
-      - "[SS] |41.95Mb"
-      - "[SS] |69.10Mb"
-      - "[SS] 馃嚚馃嚘 CA_325"
-      - "[SS] 馃嚚馃嚘 CA_327"
-      - "[SS] 馃嚚馃嚘 CA_352"
-      - "[SS] 馃嚚馃嚟 CH_477"
-      - "[SS] 馃嚞馃嚙 GB_1310"
-      - "[SS] 馃嚞馃嚙 GB_1354"
-      - "[SS] 馃嚟馃嚪 HR_1446"
-      - "[VMess] 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_152 |195.42Mb"
-      - "[SS] 🇰🇷 Pool_馃嚢馃嚪KR_63"
-      - "[SS] 🇹🇭 馃嚬馃嚟TH_170 |10.25Mb"
-      - "[SS] 🇹🇭 馃嚬馃嚟TH_688"
-      - "[SS] 🇺🇲 Pool_馃嚭馃嚫US_251 |34.30Mb"
-      - "[SS] 🇺🇲 Pool_馃嚭馃嚫US_879"
-      - "[SS] 🇺🇲 馃嚭馃嚫 US_3090"
-      - "[VMess] 🇺🇲 馃嚭馃嚫 US_3115"
-      - "[VMess] 🇺🇲 馃嚭馃嚫 US_3121"
+      - "[SS] 馃嚚馃嚘CA_109"
+      - "[SS] 馃嚚馃嚘CA_128"
+      - "[SS] 馃嚚馃嚘CA_137"
+      - "[SS] 馃嚚馃嚘CA_142 |75.19Mb"
+      - "[SS] 馃嚚馃嚘CA_169 |66.96Mb"
+      - "[SS] 馃嚚馃嚘CA_208 |72.29Mb"
+      - "[SS] 馃嚚馃嚘CA_221"
+      - "[SS] 馃弫ZZ_1924"
+      - "[SS] 馃弫ZZ_2020"
+      - "[SS] 馃弫ZZ_2026"
+      - "[SS] 馃弫ZZ_2108"
+      - "[SS] 馃弫ZZ_2113"
+      - "[SS] 馃弫ZZ_2117"
+      - "[SS] 馃弫ZZ_2118"
+      - "[SS] 馃弫ZZ_2122"
+      - "[SS] 馃弫ZZ_2129"
+      - "[SS] 馃弫ZZ_2130"
+      - "[SS] 馃弫ZZ_2134"
+      - "[SS] 馃弫ZZ_2138"
+      - "[SS] 馃弫ZZ_2142"
+      - "[SS] 馃弫ZZ_2143"
+      - "[SS] 馃弫ZZ_2145"
+      - "[SS] 馃弫ZZ_2146"
+      - "[SS] 馃弫ZZ_2148"
+      - "[SS] 馃弫ZZ_2169"
+      - "[SS] 馃弫ZZ_2170"
+      - "[SS] 馃弫ZZ_2172"
+      - "[SS] 馃弫ZZ_2178"
+      - "[SS] 馃弫ZZ_2179"
+      - "[SS] 馃弫ZZ_2191"
+      - "[SS] 馃弫ZZ_2197"
+      - "[SS] 馃弫ZZ_2200"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_289"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_290"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_291"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278 2"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_282"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_283"
+      - "[SS] 🇭🇰 Pool_馃嚟馃嚢HK_503"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_265"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_266"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_267"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_268"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_519"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_521"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_523"
+      - "[SS] 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_288"
+      - "[VMess] 🇳🇱 馃嚦馃嚤NL_713"
+      - "[SS] 🇷🇴 Relay_馃嚚馃嚦CN-馃嚪馃嚧RO_286"
+      - "[SS] 🇷🇴 Relay_馃嚚馃嚦CN-馃嚪馃嚧RO_287"
+      - "[SS] 🇷🇺 Relay_馃嚚馃嚦CN-馃嚪馃嚭RU_271"
+      - "[SS] 🇷🇺 Relay_馃嚚馃嚦CN-馃嚪馃嚭RU_272"
+      - "[SS] 🇷🇺 馃嚪馃嚭RU_800"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_259"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_261"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_274"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_285"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_294"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_250"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_251"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_252"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_253"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_254"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_256"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_258"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_291"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_297"
+      - "[SS] 🇺🇲 Relay_馃嚠馃嚛ID-馃嚭馃嚫US_532"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1001"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1005"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1110"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1115"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1116"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1117"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1118"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1120"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1121"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1128"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1149"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1151"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1154"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1156"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1157"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1159"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1171"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1173"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1175"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1176"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1179"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1191"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1252"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1256"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1257"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1453"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1485"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1716"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1723"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_962"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - "[SS] Pool_ |12.53Mb"
-      - "[SS] Pool_ |15.60Mb"
-      - "[SS] Pool_ |16.46Mb"
-      - "[SS] Pool_ |18.68Mb"
-      - "[SS] Pool_ |20.03Mb"
-      - "[SS] Pool_ |21.65Mb"
-      - "[SS] Pool_ |24.30Mb"
-      - "[SS] Pool_ |26.30Mb"
-      - "[SS] Pool_ |28.37Mb"
-      - "[SS] Pool_ |28.94Mb"
-      - "[SS] Pool_ |32.53Mb"
-      - "[SS] Pool_ |35.42Mb"
-      - "[SS] Pool_ |43.23Mb"
-      - "[SS] Pool_馃嚚馃嚟CH_213"
-      - "[SS] Pool_馃嚠馃嚦IN_84 | 5.83Mb"
-      - "[SS] Pool_馃嚠馃嚬IT_571"
-      - "[SS] Pool_馃嚠馃嚬IT_573"
-      - "[SS] Relay_ | 5.72Mb"
-      - "[SS] Relay_ | 5.90Mb"
-      - "[SS] Relay_ | 6.38Mb"
-      - "[VMess] Relay_ | 8.70Mb"
-      - "[SS] Relay_ | 8.85Mb"
-      - "[SS] Relay_ |10.29Mb"
-      - "[VMess] | 5.53Mb"
-      - "[SS] |30.02Mb"
-      - "[SS] |31.18Mb"
-      - "[SS] |32.81Mb"
-      - "[SS] |33.40Mb"
-      - "[VMess] |33.79Mb"
-      - "[SS] |34.59Mb"
-      - "[SS] |35.99Mb"
-      - "[SS] |41.20Mb"
-      - "[SS] |41.95Mb"
-      - "[SS] |69.10Mb"
-      - "[SS] 馃嚚馃嚘 CA_325"
-      - "[SS] 馃嚚馃嚘 CA_327"
-      - "[SS] 馃嚚馃嚘 CA_352"
-      - "[SS] 馃嚚馃嚟 CH_477"
-      - "[SS] 馃嚞馃嚙 GB_1310"
-      - "[SS] 馃嚞馃嚙 GB_1354"
-      - "[SS] 馃嚟馃嚪 HR_1446"
-      - "[VMess] 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_152 |195.42Mb"
-      - "[SS] 🇰🇷 Pool_馃嚢馃嚪KR_63"
-      - "[SS] 🇹🇭 馃嚬馃嚟TH_170 |10.25Mb"
-      - "[SS] 🇹🇭 馃嚬馃嚟TH_688"
-      - "[SS] 🇺🇲 Pool_馃嚭馃嚫US_251 |34.30Mb"
-      - "[SS] 🇺🇲 Pool_馃嚭馃嚫US_879"
-      - "[SS] 🇺🇲 馃嚭馃嚫 US_3090"
-      - "[VMess] 🇺🇲 馃嚭馃嚫 US_3115"
-      - "[VMess] 🇺🇲 馃嚭馃嚫 US_3121"
+      - "[SS] 馃嚚馃嚘CA_109"
+      - "[SS] 馃嚚馃嚘CA_128"
+      - "[SS] 馃嚚馃嚘CA_137"
+      - "[SS] 馃嚚馃嚘CA_142 |75.19Mb"
+      - "[SS] 馃嚚馃嚘CA_169 |66.96Mb"
+      - "[SS] 馃嚚馃嚘CA_208 |72.29Mb"
+      - "[SS] 馃嚚馃嚘CA_221"
+      - "[SS] 馃弫ZZ_1924"
+      - "[SS] 馃弫ZZ_2020"
+      - "[SS] 馃弫ZZ_2026"
+      - "[SS] 馃弫ZZ_2108"
+      - "[SS] 馃弫ZZ_2113"
+      - "[SS] 馃弫ZZ_2117"
+      - "[SS] 馃弫ZZ_2118"
+      - "[SS] 馃弫ZZ_2122"
+      - "[SS] 馃弫ZZ_2129"
+      - "[SS] 馃弫ZZ_2130"
+      - "[SS] 馃弫ZZ_2134"
+      - "[SS] 馃弫ZZ_2138"
+      - "[SS] 馃弫ZZ_2142"
+      - "[SS] 馃弫ZZ_2143"
+      - "[SS] 馃弫ZZ_2145"
+      - "[SS] 馃弫ZZ_2146"
+      - "[SS] 馃弫ZZ_2148"
+      - "[SS] 馃弫ZZ_2169"
+      - "[SS] 馃弫ZZ_2170"
+      - "[SS] 馃弫ZZ_2172"
+      - "[SS] 馃弫ZZ_2178"
+      - "[SS] 馃弫ZZ_2179"
+      - "[SS] 馃弫ZZ_2191"
+      - "[SS] 馃弫ZZ_2197"
+      - "[SS] 馃弫ZZ_2200"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_289"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_290"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚠馃嚦IN_291"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278 2"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_282"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_283"
+      - "[SS] 🇭🇰 Pool_馃嚟馃嚢HK_503"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_265"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_266"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_267"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_268"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_519"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_521"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_523"
+      - "[SS] 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_288"
+      - "[VMess] 🇳🇱 馃嚦馃嚤NL_713"
+      - "[SS] 🇷🇴 Relay_馃嚚馃嚦CN-馃嚪馃嚧RO_286"
+      - "[SS] 🇷🇴 Relay_馃嚚馃嚦CN-馃嚪馃嚧RO_287"
+      - "[SS] 🇷🇺 Relay_馃嚚馃嚦CN-馃嚪馃嚭RU_271"
+      - "[SS] 🇷🇺 Relay_馃嚚馃嚦CN-馃嚪馃嚭RU_272"
+      - "[SS] 🇷🇺 馃嚪馃嚭RU_800"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_259"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_261"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_274"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_285"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_294"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_250"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_251"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_252"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_253"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_254"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_256"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_258"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_291"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_297"
+      - "[SS] 🇺🇲 Relay_馃嚠馃嚛ID-馃嚭馃嚫US_532"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1001"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1005"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1110"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1115"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1116"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1117"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1118"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1120"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1121"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1128"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1149"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1151"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1154"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1156"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1157"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1159"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1171"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1173"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1175"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1176"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1179"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1191"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1252"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1256"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1257"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1453"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1485"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1716"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1723"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_962"
   - name: 📲 电报消息
     type: select
     proxies:
@@ -351,48 +533,103 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - "[VMess] 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_152 |195.42Mb"
+      - "[SS] 🇭🇰 Pool_馃嚟馃嚢HK_503"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_265"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_266"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_267"
+      - "[SS] 🇭🇰 Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_268"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_519"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_521"
+      - "[VMess] 🇭🇰 Relay_馃嚟馃嚢HK-馃嚟馃嚢HK_523"
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - DIRECT
+      - "[SS] 🇯🇵 Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_288"
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 150
     proxies:
-      - "[SS] 🇺🇲 Pool_馃嚭馃嚫US_251 |34.30Mb"
-      - "[SS] 🇺🇲 Pool_馃嚭馃嚫US_879"
-      - "[SS] 🇺🇲 馃嚭馃嚫 US_3090"
-      - "[VMess] 🇺🇲 馃嚭馃嚫 US_3115"
-      - "[VMess] 🇺🇲 馃嚭馃嚫 US_3121"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_250"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_251"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_252"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_253"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_254"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_255"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_256"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_257"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_258"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_269"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_291"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292"
+      - "[SS] 🇺🇲 Relay_馃嚚馃嚦CN-馃嚭馃嚫US_297"
+      - "[SS] 🇺🇲 Relay_馃嚠馃嚛ID-馃嚭馃嚫US_532"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1001"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1005"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1110"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1115"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1116"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1117"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1118"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1120"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1121"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1128"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1149"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1151"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1154"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1156"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1157"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1159"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1171"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1173"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1175"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1176"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1179"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1191"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1252"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1256"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1257"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1453"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1485"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1716"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_1723"
+      - "[SS] 🇺🇲 馃嚭馃嚫US_962"
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - DIRECT
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_277"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_278 2"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_282"
+      - "[SS] 🇨🇳 Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_283"
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - "[VMess] 🇭🇰 Relay_馃嚫馃嚞SG-馃嚟馃嚢HK_152 |195.42Mb"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_259"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_261"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_274"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_284"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_285"
+      - "[SS] 🇸🇬 Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_294"
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - "[SS] 🇰🇷 Pool_馃嚢馃嚪KR_63"
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -430,6 +667,8 @@ rules:
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
@@ -2210,6 +2449,7 @@ rules:
  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -2391,7 +2631,25 @@ rules:
  - DOMAIN,gamer2-cds.cdn.hinet.net,📺 巴哈姆特
  - DOMAIN-SUFFIX,bahamut.com.tw,📺 巴哈姆特
  - DOMAIN-SUFFIX,gamer.com.tw,📺 巴哈姆特
- - DOMAIN-SUFFIX,hinet.net,📺 巴哈姆特
+ - DOMAIN,p-bstarstatic.akamaized.net,📺 哔哩哔哩
+ - DOMAIN,p.bstarstatic.com,📺 哔哩哔哩
+ - DOMAIN,upos-bstar-mirrorakam.akamaized.net,📺 哔哩哔哩
+ - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,📺 哔哩哔哩
+ - DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 哔哩哔哩
+ - DOMAIN-SUFFIX,acgvideo.com,📺 哔哩哔哩
+ - DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
+ - DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
+ - IP-CIDR,45.43.32.234/32,📺 哔哩哔哩
+ - IP-CIDR,119.29.29.29/32,📺 哔哩哔哩
+ - IP-CIDR,128.1.62.200/32,📺 哔哩哔哩
+ - IP-CIDR,128.1.62.201/32,📺 哔哩哔哩
+ - IP-CIDR,150.116.92.250/32,📺 哔哩哔哩
+ - IP-CIDR,164.52.76.18/32,📺 哔哩哔哩
+ - IP-CIDR,203.107.1.33/32,📺 哔哩哔哩
+ - IP-CIDR,203.107.1.34/32,📺 哔哩哔哩
+ - IP-CIDR,203.107.1.65/32,📺 哔哩哔哩
+ - IP-CIDR,203.107.1.66/32,📺 哔哩哔哩
+ - DOMAIN,apiintl.biliapi.net,📺 哔哩哔哩
  - DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 哔哩哔哩
  - DOMAIN-SUFFIX,acg.tv,📺 哔哩哔哩
  - DOMAIN-SUFFIX,acgvideo.com,📺 哔哩哔哩
@@ -2409,19 +2667,7 @@ rules:
  - DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,im9.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,smtcdns.net,📺 哔哩哔哩
- - DOMAIN,upos-hz-mirrorakam.akamaized.net,📺 哔哩哔哩
- - DOMAIN-SUFFIX,acgvideo.com,📺 哔哩哔哩
- - DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
- - IP-CIDR,45.43.32.234/32,📺 哔哩哔哩
- - IP-CIDR,119.29.29.29/32,📺 哔哩哔哩
- - IP-CIDR,128.1.62.200/32,📺 哔哩哔哩
- - IP-CIDR,128.1.62.201/32,📺 哔哩哔哩
- - IP-CIDR,150.116.92.250/32,📺 哔哩哔哩
- - IP-CIDR,164.52.76.18/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.33/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.34/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.65/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.66/32,📺 哔哩哔哩
+ - DOMAIN,apiintl.biliapi.net,🌏 国内媒体
  - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
@@ -2456,6 +2702,7 @@ rules:
  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
  - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
@@ -2466,15 +2713,22 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
- - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
- - DOMAIN, fls-na.amazon.com,🌍 国外媒体
- - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
+ - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d1xfray82862hr.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
+ - DOMAIN,ktpx.amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,amazonaws.co.uk,🌍 国外媒体
- - DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,llnwd.net,🌍 国外媒体
- - DOMAIN-SUFFIX,primevideo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
  - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
  - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -2497,45 +2751,17 @@ rules:
  - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
- - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
- - DOMAIN-KEYWORD,livedazn,🌍 国外媒体
- - DOMAIN-KEYWORD,vod2dazn,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
- - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
- - DOMAIN,players.brightcove.net,🌍 国外媒体
- - DOMAIN-SUFFIX,amplify.outbrain.com,🌍 国外媒体
- - DOMAIN-SUFFIX,bluekai.com,🌍 国外媒体
- - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🌍 国外媒体
- - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
- - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
- - DOMAIN-SUFFIX,perfops.doracdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,s.llnwi.net,🌍 国外媒体
- - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
- - DOMAIN-SUFFIX,secure.footprint.net,🌍 国外媒体
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
- - DOMAIN-SUFFIX,urbanairship.com,🌍 国外媒体
- - DOMAIN-SUFFIX,vjs.zencdn.net,🌍 国外媒体
- - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🌍 国外媒体
- - DOMAIN-SUFFIX,yahoo.co.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
@@ -2566,25 +2792,13 @@ rules:
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
- - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
- - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
- - DOMAIN,players.brightcove.net,🌍 国外媒体
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
- - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
+ - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
@@ -2600,6 +2814,7 @@ rules:
  - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
  - DOMAIN,players.brightcove.net,🌍 国外媒体
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
  - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
@@ -2647,6 +2862,8 @@ rules:
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
  - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
+ - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
+ - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
@@ -2756,9 +2973,7 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
- - PROCESS-NAME,com.google.android.apps.youtube.music,🌍 国外媒体
- - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🌍 国外媒体
- - PROCESS-NAME,com.vanced.android.apps.youtube.music,🌍 国外媒体
+ - DOMAIN,music.youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2770,14 +2985,15 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
+ - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
+ - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
  - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
  - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
  - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
- - DOMAIN-SUFFIX,yunpanjingling.com,🚀 节点选择
  - DOMAIN-SUFFIX,eu,🚀 节点选择
  - DOMAIN-SUFFIX,hk,🚀 节点选择
  - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -8123,7 +8339,6 @@ rules:
  - DOMAIN-SUFFIX,xmovies.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--4gq171p.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org,🚀 节点选择
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--oiq.cc,🚀 节点选择
  - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,🚀 节点选择
@@ -8562,7 +8777,10 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
@@ -8654,7 +8872,6 @@ rules:
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
- - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -8908,7 +9125,6 @@ rules:
  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
- - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
@@ -9026,9 +9242,10 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
- - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
@@ -9095,6 +9312,7 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
